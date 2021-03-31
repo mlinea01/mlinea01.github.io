@@ -15,9 +15,9 @@ Topics discussed in this assessment:
 
 ### Code Review:
 
-The video below will explain the code used in this program as well as the enhancements that will be made.
+The link below is a video that will explain the code used for this program as well as the enhancements that will be made.
 
-  ** ADD VIDEO **
+ - [Student Managment System Code Review](https://youtu.be/7Y-jwR1kjj8)
 
 ### Code Enhancements:
 

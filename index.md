@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Student Management System Code Review and Enhancements.
 
-You can use the [editor on GitHub](https://github.com/mlinea01/mlinea01.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Self Assessment:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Topics discussed in this assessment:
 
-### Markdown
+- Skills gained throughout my computer science program
+- Team Collabortaion
+- Communicating ideas
+- Data Structures and Algorithms
+- Software Engineering and Databases
+- Software Security
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ ** provide link to self assessment **
 
-```markdown
-Syntax highlighted code block
+### Code Review:
 
-# Header 1
-## Header 2
-### Header 3
+The video below will explain the code used in this program as well as the enhancements that will be made.
 
-- Bulleted
-- List
+  ** ADD VIDEO **
 
-1. Numbered
-2. List
+### Code Enhancements:
 
-**Bold** and _Italic_ and `Code` text
+There are three categories of enhancements that were made to this program:
+1. Software Engineering and Design
+2. Algorithms and Data Structures
+3. Databases
 
-[Link](url) and ![Image](src)
-```
+**Software Engineering and Design Narrative and Code**
+- Link to Narrative
+- Link to enhancement code
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Algorithms and Data Structures Narrative and Code**
+- Link to Narrative
+- Link to enhancement code
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mlinea01/mlinea01.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Databases**
+- Link to Narrative
+- Link to enhancement code

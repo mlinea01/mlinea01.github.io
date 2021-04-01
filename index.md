@@ -17,6 +17,8 @@ Topics discussed in this assessment:
 
 The link below is a video that will explain the code used for this program as well as the enhancements that will be made.
 
+{% include youtubePlayer.html %}
+
  - [Student Managment System Code Review](https://youtu.be/7Y-jwR1kjj8)
 
 ### Code Enhancements:

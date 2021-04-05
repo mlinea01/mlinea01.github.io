@@ -1,0 +1,48 @@
+<h1 style="text-align:center;"> Algorithms and Data Structures Narrative </h1>
+<p style="margin-left: 10%; margin-right: 10%"> 
+  &emsp;&emsp;The artifact I am using to display these skills is the student management system I created a few months ago.  
+  This program is a very simple program that allows the user to enter new students into the system and enroll those students into new classes.  
+  The program isn’t very complicated, it starts by asking the user if they would like to add a student for which they are prompted to type one for yes, or two for no.  
+  If they decide to enroll a student, it then asks you to type the students first and last name, and the year they are going into.  Once you type this information, 
+  it will automatically create a student ID for that student by combing the students current school year with the id number that starts a 1000.  This number is 
+  incremented by one for every student object created to make sure that each student has a unique id.  After the student id is created it will ask if you would like 
+  to enroll a student in a class for which it will show you a list of available courses that you can choose from.  If you choose to enroll a student in a class it will 
+  then ask you if you would like to display the assignments for that class for which you can type one for yes, or two for no.  If you type yes, it will display the 
+  course assignments to the screen and then prompt the user to enter another course to enroll in or quit.  Once you are finished and type ‘q’ to quit and then it will 
+  ask you how much you would like to pay toward your tuition.  Each course is 600 dollars each and is added up as you enroll in courses.  Once you type in the amount 
+  you would like to pay toward the tuition the student info is displayed to the screen.  The student info consists of the students first and last name, student id, 
+  year the student is going into, courses the student is enrolled in with the professor’s name for each course, and the remaining balance. 
+</p>
+<p style="margin-left: 10%; margin-right: 10%"> 
+  &emsp;&emsp;The reason this artifact was chosen to showcase my skills with algorithms and data structures is because it shows that I know how to use different 
+  types of data structures and when to use them.  Of course, this doesn’t show all the possible data structures, but it displays the use of arrays and lists, as 
+  well as a few built in algorithms that come with some of the libraries available in java.  Not only does this artifact display some of my skills with algorithms 
+  and data structures, it also showcases my ability to use object oriented approaches to programming which is an important skill when it comes to group collaboration 
+  on projects.  When I originally wrote this program it simply utilized arrays for storing available courses, and those course assignments corresponding to each course.  
+  I also used a couple of lists that can be used to store new student objects for each student enrolled in the school and a list to keep track of each course each 
+  student enrolls into.  The use of these arrays and lists allowed me the opportunity to show some of the available functions such as adding and/or modifying information 
+  in those lists or arrays.  The program in its original form didn’t have much when it came to different algorithms which is why I added in functionality to sort the 
+  student objects after adding them into the system so that the students would appear in alphabetical order.  That was the main enhancement I wanted to make to improve 
+  this program in this area.  By adding the sorting algorithm, it added a little complexity to the program while also showcasing my ability to sort objects in a list.  
+</p>
+<p style="margin-left: 10%; margin-right: 10%">  
+  &emsp;&emsp;The enhancement that was planned for this artifact was to add in the sorting algorithm to sort the student objects.  As I have described above, 
+  the implementation of the sorting algorithm was a success.  Each object is created first and then before displaying those objects out to the screen, they are sorted.  
+  The way I implemented the change, it will first sort by last name but in the case that two last names are equal, it will then sort by first name.  I felt that this 
+  program had enough as far as data structures went because I added in the use of lists and arrays which are very popular in use.  Because of that, I didn’t think this 
+  area needed to be modified too much.  Because of my lack of algorithms in the program, I figured this would be a good way to add to it and showcase a different skill.  
+  With the addition of this algorithm, this program functions exactly as I expected it to when coming up with this plan a few weeks ago.  
+</p>
+<p style="margin-left: 10%; margin-right: 10%">   
+  &emsp;&emsp;While I was working on this enhancement it was a bit of a learning experience for me.  When it comes to a list of strings, its easy to simply call 
+  “Collections.sort()” on the list and have it sort those strings.  With objects the process was a little different which gave me a little bit a hard time initially.  
+  I needed to do a little research into the ways you can sort a lit of student objects and found that there were a few ways that this can be done.  One way, which I was 
+  going to use, was utilizing a lambda expression to sort the objects.  This was a much simpler way to sort the objects as it showed my understanding of lambda expressions 
+  and only took up one line of code.  However, I also felt this was a little too simple and may not showcase the level of skills I am capable of doing which is why I went
+  with a different approach.  The approach I took to sorting the objects was creating my own sorting class called “SortObjects” which implements comparable.  I then created 
+  the necessary function to utilize the “compareTo” function to compare two objects to each other.  Within that function, I defined it in a way that would sort the objects 
+  by last name but if the last names were the same, sort by first name.  Once that class was created, I went into my main class after each student object was created and was 
+  able to call the “Collections.sort()” method which takes two arguments, the list I am sorting and the comparator.  I really enjoyed this process because I wasn’t very 
+  familiar with the use of the comparator class at that time.  By performing this enhancement, I learned the proper way to implement the sorting algorithm for sorting objects 
+  stored in a list using a comparator. 
+</p>

@@ -1,0 +1,55 @@
+<h1 style="margin-left: 10%; margin-right: 10%; text-align:center"> Databases Narrative </h1>
+<p style="margin-left: 10%; margin-right: 10%"> 
+  &emsp;&emsp;The artifact I am using to display the use of databases is the same artifact I have used for the other two enhancements which is the student management system.  
+  This program is simple in its functionality.  The main idea behind the program is to give the user the ability to enter a student into the system using their first and last 
+  name, year they are going into, and it will automatically create a unique ID.   Once the student is entered into the system, it asks you if you would like to enroll the 
+  student into new classes.  If you choose yes, it will show a list of courses that are available at the school that you can enroll the student into.  You simply type of the 
+  name of the course, and it will add that course that your students list of courses and increase the balance due by 600 for each course the student enrolls in.  I also added 
+  functionality so that the user can choose to see the course assignments for each course as you enroll into them.  You can choose yes or no.  If you choose yes, it will 
+  display the course assignments, if you choose no, it will go back to asking if you would like to enroll in more courses or quit.  Once you choose to quit, it will show you 
+  the balance due after enrolling into the courses and ask you how much you would like to pay toward the tuition.  You type any number from 0 to the total due and it will 
+  subtract that amount and output how much you offered to pay toward the tuition.  After you finish paying toward the tuition, it asks if you would like to enter another 
+  student, if not, it will quit out and display all student info for all students enrolled into classes which includes showing their first and last name, year attending, 
+  student ID, courses and professor names, and the balance due.  
+</p>
+<p style="margin-left: 10%; margin-right: 10%"> 
+  &emsp;&emsp;The main reason I chose to use this artifact is because it displays all the necessary skills for designing a program, using proper naming conventions, and 
+  spacing, properly using data structures and algorithms, and now the use of databases.  I like the way that I have this program outlined because it utilizes object-oriented 
+  programing methods which is a skill I would like to showcase.  I made every effort to design this program and write my code using the new skills I have learned, and I feel 
+  this program will display this knowledge nicely.  Of course, there are other data structures and algorithms as java is a large language with a lot of different libraries.  
+  I couldn’t use all of them, but this program displays a lot of the important skills I would like to show off.  As for improvements made to this program, I wanted to introduce 
+  using a database rather than simply displaying each student object to the screen.  I knew that a better way to make this program more realistic would be to add functionality 
+  to add those student objects to a database.  I accomplished this by adding in some SQL commands into my java code.  I created a method that connects to the database, and 
+  creates the table needed to store the information from each student object.  The table created has six columns, one for each piece of data in each student object (ID, first 
+  name, last name, year attending, courses, and balance).  The program will only connect to the database and create a table if a connection hasn’t already been established and 
+  a table hasn’t already been created.  The program then functions normally by allowing you to enroll students into the program except at the end, instead of just displaying 
+  them to the screen, it calls a save student info method that I created and utilizes more SQL commands to input each student object into the table one at a time.  I also 
+  modified the display student info method grab the information from the database and display it to the screen to show the data that is now present in the database.  The way 
+  I have this set up, it will keep the data even when the IDE is closed, and it will allow you to continue adding extra students when you reopen the program which is the 
+  functionality, I wanted so that it gives a realistic feel of a student management system.  If you would like to view the data that is put into the database, you will need to 
+  download SQL lite studio and connect to the database and then it will allow you to open the table and view the data.  
+</p>
+<p style="margin-left: 10%; margin-right: 10%">  
+  &emsp;&emsp;I can say with a lot of confidence that I met the goals I had planned for this enhancement because it turned out better than I anticipated.  The main idea behind 
+  this enhancement was to show my skills with creating databases using SQL and utilizing SQL queries to insert and view data.  My original thought process was that this would 
+  be something simple where it would delete everything when I closed the program.  At the start, I was only thinking about ways that I can show my use of different languages 
+  and skills that I can bring to the table.  As I went through the work and was creating the database and table, I realized I could not only showcase those skills, but make it 
+  a realistic type of system that could be used to store information.  With this enhancement implemented into the program, I believe I have accomplished everything I had 
+  planned for the full enhancement of this artifact.  
+</p>
+<p style="margin-left: 10%; margin-right: 10%">   
+  &emsp;&emsp;The process of adding in this functionality was a bit of a challenge at the start.  Mainly because I had never had to integrate SQL code into a java program 
+  before.  This was one of the reasons I wanted to add this type of functionality because it forced me to learn a useful aspect of programming to my set of skills.  I needed 
+  to do a little research into adding in the database and connecting to it in my java code which wasn’t too bad.  Once I was connected to the database, creating the table and 
+  writing queries to store and pull data to and from the database was easy.  I have a good working knowledge of SQL to where I didn’t struggle with this portion of the code.  
+  The biggest lesson I learned when adding these statements was needing to use a try-catch block to establish a connection to the database to run these queries or output the 
+  error message to the user know there was an issue connecting to the database.  This wasn’t difficult to figure out because eclipse has very descriptive error messages that 
+  allowed me to figure this out rather quickly and fix the issue.  By adding in this new functionality, it also forced me to change up the program a little bit but in a good 
+  way.  For example, I didn’t need to create a student ID for each student in my code because now that they are being put into the database, they will get a unique ID as they 
+  are added to the table.  I also changed the code for displaying the student info because I needed to query the results from the database which was really just a way to show 
+  that the information was successfully added into the database.  One other thing I would like to point out is that I still have a sorting algorithm in my code from the 
+  previous enhancement which I thought I could take out at this point but decided to leave in as a way to display the use of the sorting algorithm.  The reason that portion is 
+  needed at this point is because when you have the data in the database, when I query the results, I can sort them in any way I would like such as by ID, by Name, etc. using 
+  those queries.  It doesn’t hurt to leave the sorting algorithm in but it definitely isn’t necessary with the new changes that I have made.  Overall, it was a great learning 
+  experience and I feel that I was very successful in my implementation of these enhancements.  
+</p>
